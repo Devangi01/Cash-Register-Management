@@ -16,5 +16,12 @@ Enter the cash amount you have & click on Check
 
 Output will be shown below the check button
 
+# Programming Language:
+html
+
+css
+
+javascript
+
 # Link
 [Live](https://cash-register-managementsystem.netlify.app/)
