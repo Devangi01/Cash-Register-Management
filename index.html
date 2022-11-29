@@ -12,7 +12,7 @@
         
         <p>Write below your bill amount and cash given by the customer and know minimum number of notes to return.</p>
         <label for="bill-amount">Bill Amount</label>
-        <input id="bill-amount" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
+        <input type="number" id="bill-amount" min="0" onkeyup="if(this.value<0){this.value= this.value * -1}"/>
         <button id="next">Next</button>
         <div class="container">
         <label for="cash-given">Cash Given</label>
