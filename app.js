@@ -28,7 +28,7 @@ function returnAmount(amountToReturn) {
 function checkBillValidation() {
     hideMessage();
     if (billAmount < 0 || !billAmount && billAmount !== 0) {
-        setMessage("Invalid bill amount");
+        setMessage("Invalid bill amount.");
     } else if (billAmount == 0) {
         setMessage("No Need for calculation.");
     } else {
